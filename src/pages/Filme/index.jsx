@@ -67,6 +67,10 @@ const Filme = () => {
         )
     }
 
+    function FormatedNumber(number) {
+        return number.toFixed(1);
+    }
+
     return (
         <div className='filme-info'>
             <h1>{film.title}</h1>
@@ -76,7 +80,7 @@ const Filme = () => {
             <span>{film.overview}</span>
 
             <strong>
-                Avaliação: {film.vote_average} / 10
+                Avaliação: {FormatedNumber(film.vote_average)} / 10
             </strong>
 
             <div className="area-buttons">
