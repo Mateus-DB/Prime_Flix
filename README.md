@@ -1,16 +1,60 @@
-# React + Vite
+🎬 Prime Flix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Prime Flix é um catálogo de filmes e séries desenvolvido com React, consumindo a API do TheMovieDB (TMDB) para listar títulos, exibir sinopse, notas, trailers e permitir salvar favoritos.
+O projeto conta com navegação por rotas, paginação intuitiva e uma interface simples e responsiva.
 
-Currently, two official plugins are available:
+🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔹 React — Framework principal
+🔹 React Router DOM — Navegação entre páginas
+🔹 Axios — Consumo da API TMDB
+🔹 React Toastify — Exibição de toasts animados
+🔹 CSS — Estilização e responsividade
+🔹 JavaScript — Lógica e interações
 
-## React Compiler
+📌 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✔️ Listagem de filmes e séries populares
+✔️ Página de detalhes do filme contendo:
+   • Sinopse
+   • Avaliação
+   • Botão para acessar o trailer
+✔️ Possibilidade de favoritar filmes
+✔️ Página exclusiva com os filmes favoritos salvos no navegador
+✔️ Navegação entre rotas (Home → Detalhes → Favoritos)
+✔️ Interface responsiva
+✔️ Toasts animados para feedback ao usuário
 
-## Expanding the ESLint configuration
+📁 Estrutura das Páginas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🏠 Home – Lista os filmes vindos da API
+
+🎞️ Detalhes do Filme – Mostra sinopse, nota e trailer
+
+⭐ Favoritos – Lista os filmes salvos pelo usuário
+
+🌐 Deploy
+
+👉 Acesse o projeto online:
+🔗 https://prime-flix-coral-mu.vercel.app/
+
+🛠️ Como Executar Localmente
+# Clone o repositório
+git clone https://github.com/seu-usuario/prime-flix.git
+
+# Acesse a pasta do projeto
+cd prime-flix
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm start
+
+
+O projeto iniciará em:
+👉 http://localhost:3000
+
+🎯 Objetivo do Projeto
+
+Este projeto foi criado para praticar e consolidar conceitos de React, consumo de APIs, rotas, componentização, manipulação de estados e armazenamento local com localStorage.
